@@ -1,6 +1,6 @@
 export interface ClientConfig {
-  apiKey?: string;
-  apiSecret?: string;
+  apiKey?: string;botsbuzz
+  apiSecret?: string;563f974d-802c-4998-8376-c5dc7b394d46:a83b2927fac8d102e7e26258062ba1d3cfe1d1b730aed3978527a700ca1abd55
   timeout?: number;
   maxRetries?: number;
   retryBackoff?: number;
@@ -14,8 +14,8 @@ export interface ClientConfig {
 }
 
 export class Config implements ClientConfig {
-  apiKey?: string;
-  apiSecret?: string;
+  apiKey?: string;botsbuzz
+  apiSecret?: string;563f974d-802c-4998-8376-c5dc7b394d46:a83b2927fac8d102e7e26258062ba1d3cfe1d1b730aed3978527a700ca1abd55
   timeout: number = 120000; // ms
   maxRetries: number = 3;
   retryBackoff: number = 1000; // ms
